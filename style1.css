@@ -1,0 +1,149 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.section {
+    padding: 80px 50px;
+    min-height:100vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #0d1117;
+    color: #fff;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Header */
+.header {
+    padding: 20px 50px;
+    background: #161b22;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar .menu {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .menu li a {
+    color: #fff;
+    padding: 5px 10px;
+    transition: 0.3s ease;
+}
+
+.navbar .menu li a:hover {
+    color: #00dfc4;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    padding: 100px 50px;
+    background: linear-gradient(135deg, #0d1117, #161b22);
+}
+
+.hero .content {
+    max-width: 50%;
+}
+
+.hero .content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero .content .name {
+    color: #00dfc4;
+}
+
+.hero .content h2 {
+    font-size: 2rem;
+    color: #aaa;
+    margin-bottom: 20px;
+}
+
+.hero .content .highlight {
+    color: #00dfc4;
+}
+
+.hero .content p {
+    margin-bottom: 20px;
+    color: #bbb;
+}
+
+.hero .social-icons {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.hero .social-icons a {
+    color: #00dfc4;
+    font-size: 1.5rem;
+    transition: 0.3s ease;
+}
+
+.hero .social-icons a:hover {
+    color: #fff;
+}
+
+.hero .btn {
+    display: inline-block;
+    background: #00dfc4;
+    color: #0d1117;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.hero .btn:hover {
+    background: #00b3a1;
+}
+
+/* Image Container */
+.image-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #00dfc4;
+    clip-path:circle();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
